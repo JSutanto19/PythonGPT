@@ -1,0 +1,70 @@
+.list--header{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+
+.list--header h2 {
+    color: #526d82;
+}
+
+.list {
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    background-color: #dde6ed;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);  /* subtle shadow */
+}
+
+.list--header select {
+    border-radius: 10px;
+    border: none;
+    padding: 8px 12px;
+    border: 1px solid #dde6ed;
+    color: #526d82;
+}
+
+.duration-text {
+    text-align: left;
+    flex-grow: 2; /* Gives more room for the duration text to avoid being squished */
+}
+
+.list--container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.teacher--detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #526d82;
+}
+
+.teacher--detail img{
+    width: 50px;
+    background: #dde6ed;
+    border-radius: 50%;
+}
+
+.list:hover{
+    background: #dde6ed;
+    border-radius: 10px;
+}
+
+.answer-button {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    border: 1px solid #dde6ed;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    color: #526d82;
+}
